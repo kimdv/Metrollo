@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Metrollo'
-  s.version = '0.1.0'
+  s.version = '0.2.0'
   s.license = 'MIT'
   s.summary = 'Wrapper that combines Alamofire and Google Promises.'
   s.homepage = 'https://github.com/kimdv/Metrollo'
