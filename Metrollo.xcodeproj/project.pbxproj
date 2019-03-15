@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05F71ADAE5D3FB6519CB84D6 /* Pods_MetrolloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4F2A0D43B5A42D38091294 /* Pods_MetrolloTests.framework */; };
+		77191E40043FC2D4AFDE0449 /* Pods_Metrollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4E9D08D09E273C3283F374 /* Pods_Metrollo.framework */; };
 		C3FC246F223C1C4000F1E9DA /* Metrollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FC2465223C1C4000F1E9DA /* Metrollo.framework */; };
 		C3FC2474223C1C4000F1E9DA /* MetrolloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2473223C1C4000F1E9DA /* MetrolloTests.swift */; };
 		C3FC2476223C1C4000F1E9DA /* Metrollo.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FC2468223C1C4000F1E9DA /* Metrollo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FC2484223C1CC700F1E9DA /* BrightFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC247F223C1CC700F1E9DA /* BrightFire.swift */; };
+		C3FC2485223C1CC700F1E9DA /* DataRequest+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */; };
+		C3FC2486223C1CC700F1E9DA /* BFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2481223C1CC700F1E9DA /* BFError.swift */; };
+		C3FC2487223C1CC700F1E9DA /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2482223C1CC700F1E9DA /* EndPoint.swift */; };
+		C3FC2488223C1CC700F1E9DA /* Promise+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BD5154B96DF950CC337A2A9 /* Pods-Metrollo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metrollo.debug.xcconfig"; path = "Target Support Files/Pods-Metrollo/Pods-Metrollo.debug.xcconfig"; sourceTree = "<group>"; };
+		5F28AD4C22B4BA43051ED900 /* Pods-Metrollo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metrollo.release.xcconfig"; path = "Target Support Files/Pods-Metrollo/Pods-Metrollo.release.xcconfig"; sourceTree = "<group>"; };
+		7E4E9D08D09E273C3283F374 /* Pods_Metrollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metrollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4F2A0D43B5A42D38091294 /* Pods_MetrolloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrolloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A81E520F1F6F73C02067D61 /* Pods-MetrolloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrolloTests.debug.xcconfig"; path = "Target Support Files/Pods-MetrolloTests/Pods-MetrolloTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3FC2465223C1C4000F1E9DA /* Metrollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Metrollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FC2468223C1C4000F1E9DA /* Metrollo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Metrollo.h; sourceTree = "<group>"; };
 		C3FC2469223C1C4000F1E9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3FC246E223C1C4000F1E9DA /* MetrolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FC2473223C1C4000F1E9DA /* MetrolloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrolloTests.swift; sourceTree = "<group>"; };
 		C3FC2475223C1C4000F1E9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FC247F223C1CC700F1E9DA /* BrightFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightFire.swift; sourceTree = "<group>"; };
+		C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+Promise.swift"; sourceTree = "<group>"; };
+		C3FC2481223C1CC700F1E9DA /* BFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFError.swift; sourceTree = "<group>"; };
+		C3FC2482223C1CC700F1E9DA /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Codable.swift"; sourceTree = "<group>"; };
+		F5F12D26F5B6D7BD31870618 /* Pods-MetrolloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrolloTests.release.xcconfig"; path = "Target Support Files/Pods-MetrolloTests/Pods-MetrolloTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77191E40043FC2D4AFDE0449 /* Pods_Metrollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +63,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3FC246F223C1C4000F1E9DA /* Metrollo.framework in Frameworks */,
+				05F71ADAE5D3FB6519CB84D6 /* Pods_MetrolloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95456DAEA2DF8477F018892D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E9D08D09E273C3283F374 /* Pods_Metrollo.framework */,
+				9A4F2A0D43B5A42D38091294 /* Pods_MetrolloTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3FC245B223C1C4000F1E9DA = {
 			isa = PBXGroup;
 			children = (
 				C3FC2467223C1C4000F1E9DA /* Metrollo */,
 				C3FC2472223C1C4000F1E9DA /* MetrolloTests */,
 				C3FC2466223C1C4000F1E9DA /* Products */,
+				C7D87CA9199AAC51AF250540 /* Pods */,
+				95456DAEA2DF8477F018892D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +102,11 @@
 		C3FC2467223C1C4000F1E9DA /* Metrollo */ = {
 			isa = PBXGroup;
 			children = (
+				C3FC2481223C1CC700F1E9DA /* BFError.swift */,
+				C3FC247F223C1CC700F1E9DA /* BrightFire.swift */,
+				C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */,
+				C3FC2482223C1CC700F1E9DA /* EndPoint.swift */,
+				C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */,
 				C3FC2468223C1C4000F1E9DA /* Metrollo.h */,
 				C3FC2469223C1C4000F1E9DA /* Info.plist */,
 			);
@@ -84,6 +120,17 @@
 				C3FC2475223C1C4000F1E9DA /* Info.plist */,
 			);
 			path = MetrolloTests;
+			sourceTree = "<group>";
+		};
+		C7D87CA9199AAC51AF250540 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BD5154B96DF950CC337A2A9 /* Pods-Metrollo.debug.xcconfig */,
+				5F28AD4C22B4BA43051ED900 /* Pods-Metrollo.release.xcconfig */,
+				9A81E520F1F6F73C02067D61 /* Pods-MetrolloTests.debug.xcconfig */,
+				F5F12D26F5B6D7BD31870618 /* Pods-MetrolloTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FC2479223C1C4000F1E9DA /* Build configuration list for PBXNativeTarget "Metrollo" */;
 			buildPhases = (
+				A88BC74F1DE3640F60F7F7D5 /* [CP] Check Pods Manifest.lock */,
 				C3FC2460223C1C4000F1E9DA /* Headers */,
 				C3FC2461223C1C4000F1E9DA /* Sources */,
 				C3FC2462223C1C4000F1E9DA /* Frameworks */,
@@ -122,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FC247C223C1C4000F1E9DA /* Build configuration list for PBXNativeTarget "MetrolloTests" */;
 			buildPhases = (
+				9A3D8F8247F4B02D50FA4D0F /* [CP] Check Pods Manifest.lock */,
 				C3FC246A223C1C4000F1E9DA /* Sources */,
 				C3FC246B223C1C4000F1E9DA /* Frameworks */,
 				C3FC246C223C1C4000F1E9DA /* Resources */,
@@ -148,6 +197,7 @@
 				TargetAttributes = {
 					C3FC2464223C1C4000F1E9DA = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					C3FC246D223C1C4000F1E9DA = {
 						CreatedOnToolsVersion = 10.1;
@@ -189,11 +239,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A3D8F8247F4B02D50FA4D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetrolloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88BC74F1DE3640F60F7F7D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metrollo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3FC2461223C1C4000F1E9DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FC2484223C1CC700F1E9DA /* BrightFire.swift in Sources */,
+				C3FC2488223C1CC700F1E9DA /* Promise+Codable.swift in Sources */,
+				C3FC2486223C1CC700F1E9DA /* BFError.swift in Sources */,
+				C3FC2487223C1CC700F1E9DA /* EndPoint.swift in Sources */,
+				C3FC2485223C1CC700F1E9DA /* DataRequest+Promise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +442,9 @@
 		};
 		C3FC247A223C1C4000F1E9DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD5154B96DF950CC337A2A9 /* Pods-Metrollo.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -350,6 +454,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Metrollo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.kimdevos.Metrollo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +471,9 @@
 		};
 		C3FC247B223C1C4000F1E9DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F28AD4C22B4BA43051ED900 /* Pods-Metrollo.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,6 +483,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Metrollo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +499,9 @@
 		};
 		C3FC247D223C1C4000F1E9DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A81E520F1F6F73C02067D61 /* Pods-MetrolloTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9446JZB352;
 				INFOPLIST_FILE = MetrolloTests/Info.plist;
@@ -408,7 +519,9 @@
 		};
 		C3FC247E223C1C4000F1E9DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F12D26F5B6D7BD31870618 /* Pods-MetrolloTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9446JZB352;
 				INFOPLIST_FILE = MetrolloTests/Info.plist;
