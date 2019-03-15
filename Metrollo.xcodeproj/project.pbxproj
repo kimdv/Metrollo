@@ -12,7 +12,7 @@
 		C3FC246F223C1C4000F1E9DA /* Metrollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FC2465223C1C4000F1E9DA /* Metrollo.framework */; };
 		C3FC2474223C1C4000F1E9DA /* MetrolloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2473223C1C4000F1E9DA /* MetrolloTests.swift */; };
 		C3FC2476223C1C4000F1E9DA /* Metrollo.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FC2468223C1C4000F1E9DA /* Metrollo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3FC2484223C1CC700F1E9DA /* BrightFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC247F223C1CC700F1E9DA /* BrightFire.swift */; };
+		C3FC2484223C1CC700F1E9DA /* Metrollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC247F223C1CC700F1E9DA /* Metrollo.swift */; };
 		C3FC2485223C1CC700F1E9DA /* DataRequest+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */; };
 		C3FC2486223C1CC700F1E9DA /* BFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2481223C1CC700F1E9DA /* BFError.swift */; };
 		C3FC2487223C1CC700F1E9DA /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2482223C1CC700F1E9DA /* EndPoint.swift */; };
@@ -41,7 +41,7 @@
 		C3FC246E223C1C4000F1E9DA /* MetrolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FC2473223C1C4000F1E9DA /* MetrolloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrolloTests.swift; sourceTree = "<group>"; };
 		C3FC2475223C1C4000F1E9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FC247F223C1CC700F1E9DA /* BrightFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightFire.swift; sourceTree = "<group>"; };
+		C3FC247F223C1CC700F1E9DA /* Metrollo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metrollo.swift; sourceTree = "<group>"; };
 		C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+Promise.swift"; sourceTree = "<group>"; };
 		C3FC2481223C1CC700F1E9DA /* BFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFError.swift; sourceTree = "<group>"; };
 		C3FC2482223C1CC700F1E9DA /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C3FC2481223C1CC700F1E9DA /* BFError.swift */,
-				C3FC247F223C1CC700F1E9DA /* BrightFire.swift */,
+				C3FC247F223C1CC700F1E9DA /* Metrollo.swift */,
 				C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */,
 				C3FC2482223C1CC700F1E9DA /* EndPoint.swift */,
 				C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */,
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FC2484223C1CC700F1E9DA /* BrightFire.swift in Sources */,
+				C3FC2484223C1CC700F1E9DA /* Metrollo.swift in Sources */,
 				C3FC2488223C1CC700F1E9DA /* Promise+Codable.swift in Sources */,
 				C3FC2486223C1CC700F1E9DA /* BFError.swift in Sources */,
 				C3FC2487223C1CC700F1E9DA /* EndPoint.swift in Sources */,

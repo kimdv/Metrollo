@@ -35,3 +35,12 @@ public func request<T: Decodable>(_ endpoint: Endpoint) -> Promise<T> {
         .then { $0.0 }
         .decodeJson(dateDecodingStrategy: endpoint.dateDecodingStrategy)
 }
+
+public func request<T: Decodable>(_ endpoint: Endpoint) -> Promise<(T, HTTPURLResponse?)> {
+    return request(endpoint)
+        .then { data, response -> (T, HTTPURLResponse?) in
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = endpoint.dateDecodingStrategy
+            return (try decoder.decode(T.self, from: data), response)
+        }
+}
