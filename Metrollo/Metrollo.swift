@@ -13,10 +13,13 @@ public func request(_ endpoint: Endpoint) -> Promise<(Data, HTTPURLResponse?)> {
     let promise: Promise<(Data, HTTPURLResponse?)>
     
     if endpoint.useMock {
-        promise = Promise(on: DispatchQueue.main, { () -> (Data, HTTPURLResponse?) in
-            return (endpoint.mockData, nil)
-        })
-        .delay(endpoint.mockDelay)
+        if let data = endpoint.mockData {
+            promise = Promise(on: DispatchQueue.main, { () -> (Data, HTTPURLResponse?) in
+                return (data, nil)
+            }).delay(endpoint.mockDelay)
+        } else {
+            promise = Promise(MMockError.noMockData)
+        }
     } else if let url = endpoint.fullUrl {
         promise = Alamofire.request(url,
                                     method: endpoint.method,
@@ -24,7 +27,7 @@ public func request(_ endpoint: Endpoint) -> Promise<(Data, HTTPURLResponse?)> {
                                     headers: endpoint.headers)
             .responseData()
     } else {
-        promise = Promise.init(BFError.invalidUrl)
+        promise = Promise.init(MError.invalidUrl)
     }
     
     return promise

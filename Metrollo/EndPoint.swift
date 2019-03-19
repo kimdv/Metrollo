@@ -29,7 +29,7 @@ public protocol Endpoint {
     var dateDecodingStrategy: JSONDecoder.DateDecodingStrategy { get }
 
     /// Mock data that is used when `useMock` is `true`.
-    var mockData: Data { get }
+    var mockData: Data? { get }
 
     /// Use mock or not. Default is false
     var useMock: Bool { get }
@@ -47,6 +47,10 @@ public extension Endpoint {
         return false
     }
 
+    /// Default implmentaion of `mockData`. Default value is `nil`.
+    public var mockData: Data? {
+        return nil
+    }
 
     /// Default implementation of `dateDecodingStrategy`. Default is `deferredToDate`
     public var dateDecodingStrategy: JSONDecoder.DateDecodingStrategy {
