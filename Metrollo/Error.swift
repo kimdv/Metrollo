@@ -1,5 +1,5 @@
 //
-//  BFError.swift
+//  Error.swift
 //  Metrollo
 //
 //  Created by Kim de Vos on 15/03/2019.
@@ -8,6 +8,10 @@
 
 import Foundation
 
-public enum BFError: Error {
+public enum MError: Error {
     case invalidUrl
+}
+
+public enum MMockError: Error {
+    case noMockData
 }

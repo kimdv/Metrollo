@@ -14,7 +14,7 @@
 		C3FC2476223C1C4000F1E9DA /* Metrollo.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FC2468223C1C4000F1E9DA /* Metrollo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3FC2484223C1CC700F1E9DA /* Metrollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC247F223C1CC700F1E9DA /* Metrollo.swift */; };
 		C3FC2485223C1CC700F1E9DA /* DataRequest+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */; };
-		C3FC2486223C1CC700F1E9DA /* BFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2481223C1CC700F1E9DA /* BFError.swift */; };
+		C3FC2486223C1CC700F1E9DA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2481223C1CC700F1E9DA /* Error.swift */; };
 		C3FC2487223C1CC700F1E9DA /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2482223C1CC700F1E9DA /* EndPoint.swift */; };
 		C3FC2488223C1CC700F1E9DA /* Promise+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +40,7 @@
 		C3FC2475223C1C4000F1E9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3FC247F223C1CC700F1E9DA /* Metrollo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metrollo.swift; sourceTree = "<group>"; };
 		C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+Promise.swift"; sourceTree = "<group>"; };
-		C3FC2481223C1CC700F1E9DA /* BFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFError.swift; sourceTree = "<group>"; };
+		C3FC2481223C1CC700F1E9DA /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		C3FC2482223C1CC700F1E9DA /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +97,7 @@
 		C3FC2467223C1C4000F1E9DA /* Metrollo */ = {
 			isa = PBXGroup;
 			children = (
-				C3FC2481223C1CC700F1E9DA /* BFError.swift */,
+				C3FC2481223C1CC700F1E9DA /* Error.swift */,
 				C3FC247F223C1CC700F1E9DA /* Metrollo.swift */,
 				C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */,
 				C3FC2482223C1CC700F1E9DA /* EndPoint.swift */,
@@ -228,7 +228,7 @@
 			files = (
 				C3FC2484223C1CC700F1E9DA /* Metrollo.swift in Sources */,
 				C3FC2488223C1CC700F1E9DA /* Promise+Codable.swift in Sources */,
-				C3FC2486223C1CC700F1E9DA /* BFError.swift in Sources */,
+				C3FC2486223C1CC700F1E9DA /* Error.swift in Sources */,
 				C3FC2487223C1CC700F1E9DA /* EndPoint.swift in Sources */,
 				C3FC2485223C1CC700F1E9DA /* DataRequest+Promise.swift in Sources */,
 			);
