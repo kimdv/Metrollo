@@ -1,2 +1,2 @@
 github "Alamofire/Alamofire" ~> 4.8
-github "Google/PromisesSwift" ~> 1.2
+github "Google/promises" ~> 1.2
