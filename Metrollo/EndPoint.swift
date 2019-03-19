@@ -6,8 +6,6 @@
 //  Copyright © 2019 Kim de Vos. All rights reserved.
 //
 
-import Alamofire
-
 public protocol Endpoint {
 
     /// Base URL for the target

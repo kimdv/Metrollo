@@ -7,7 +7,6 @@
 //
 
 import Alamofire
-import Promises
 
 extension Promise  {
     func decodeJson<T: Decodable>(data: Data,

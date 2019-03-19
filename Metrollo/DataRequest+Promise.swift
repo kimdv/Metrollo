@@ -7,7 +7,6 @@
 //
 
 import Alamofire
-import Promises
 
 extension DataRequest {
     func responseData() -> Promise<(Data, HTTPURLResponse?)> {

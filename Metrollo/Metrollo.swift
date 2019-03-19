@@ -7,7 +7,6 @@
 //
 
 import Alamofire
-import Promises
 
 public func request(_ endpoint: Endpoint) -> Promise<(Data, HTTPURLResponse?)> {
     let promise: Promise<(Data, HTTPURLResponse?)>
