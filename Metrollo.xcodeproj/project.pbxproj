@@ -99,13 +99,13 @@
 		C3FC2467223C1C4000F1E9DA /* Metrollo */ = {
 			isa = PBXGroup;
 			children = (
-				C3FC2481223C1CC700F1E9DA /* Error.swift */,
-				C3FC247F223C1CC700F1E9DA /* Metrollo.swift */,
-				C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */,
-				C3FC2482223C1CC700F1E9DA /* EndPoint.swift */,
-				C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */,
 				C3FC2468223C1C4000F1E9DA /* Metrollo.h */,
 				C3FC2469223C1C4000F1E9DA /* Info.plist */,
+				C3FC2480223C1CC700F1E9DA /* DataRequest+Promise.swift */,
+				C3FC2482223C1CC700F1E9DA /* EndPoint.swift */,
+				C3FC2481223C1CC700F1E9DA /* Error.swift */,
+				C3FC247F223C1CC700F1E9DA /* Metrollo.swift */,
+				C3FC2483223C1CC700F1E9DA /* Promise+Codable.swift */,
 				C36AAC56224199AC00DCBC0B /* Types.swift */,
 			);
 			path = Metrollo;

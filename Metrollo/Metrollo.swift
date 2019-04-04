@@ -24,6 +24,7 @@ public func request(_ endpoint: Endpoint) -> Promise<(Data, HTTPURLResponse?)> {
                                     method: endpoint.method,
                                     parameters: endpoint.parameters,
                                     headers: endpoint.headers)
+            .validate()
             .responseData()
     } else {
         promise = Promise.init(MError.invalidUrl)
