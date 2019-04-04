@@ -41,22 +41,22 @@ public protocol Endpoint {
 public extension Endpoint {
 
     /// Default implmentaion of `useMock`. Default is `false`.
-    public var useMock: Bool {
+    var useMock: Bool {
         return false
     }
 
     /// Default implmentaion of `mockData`. Default value is `nil`.
-    public var mockData: Data? {
+    var mockData: Data? {
         return nil
     }
 
     /// Default implementation of `dateDecodingStrategy`. Default is `deferredToDate`
-    public var dateDecodingStrategy: JSONDecoder.DateDecodingStrategy {
+    var dateDecodingStrategy: JSONDecoder.DateDecodingStrategy {
         return .deferredToDate
     }
 
     /// Default implementaion of `mockDelay`. Default is `0`
-    public var mockDelay: TimeInterval {
+    var mockDelay: TimeInterval {
         return 0
     }
 }
