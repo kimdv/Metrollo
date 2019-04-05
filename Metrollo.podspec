@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Metrollo/*.swift'
   
-  s.dependency 'Alamofire', '~> 4.8'
+  s.dependency 'Alamofire', '~> 5.0.0-beta.4'
   s.dependency 'PromisesSwift', '~> 1.2'
 end
