@@ -12,5 +12,8 @@ import Promises
 public typealias HTTPMethod = Alamofire.HTTPMethod
 public typealias Parameters = Alamofire.Parameters
 public typealias HTTPHeaders = Alamofire.HTTPHeaders
+public typealias ParameterEncoding = Alamofire.ParameterEncoding
+public typealias URLEncoding = Alamofire.URLEncoding
+public typealias JSONEncoding = Alamofire.JSONEncoding
 
 public typealias Promise = Promises.Promise

@@ -23,6 +23,9 @@ public protocol Endpoint {
     /// Headers for the target
     var headers: HTTPHeaders { get }
 
+    /// Define how a set of parameters are applied.
+    var encoding: ParameterEncoding { get }
+
     /// Date decoding strategy for the target. Default is `deferredToDate`
     var dateDecodingStrategy: JSONDecoder.DateDecodingStrategy { get }
 
@@ -53,6 +56,11 @@ public extension Endpoint {
     /// Default implementation of `dateDecodingStrategy`. Default is `deferredToDate`
     var dateDecodingStrategy: JSONDecoder.DateDecodingStrategy {
         return .deferredToDate
+    }
+
+    /// Default implementation of `encoding`. Default value is `URLEncoding.default` from Alamofire.
+    var encoding: ParameterEncoding {
+        return URLEncoding.default
     }
 
     /// Default implementaion of `mockDelay`. Default is `0`

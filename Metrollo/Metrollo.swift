@@ -23,6 +23,7 @@ public func request(_ endpoint: Endpoint) -> Promise<(Data, HTTPURLResponse?)> {
         promise = Alamofire.request(url,
                                     method: endpoint.method,
                                     parameters: endpoint.parameters,
+                                    encoding: endpoint.encoding,
                                     headers: endpoint.headers)
             .validate()
             .responseData()
