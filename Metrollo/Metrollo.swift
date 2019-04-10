@@ -19,7 +19,7 @@ public func request(_ endpoint: Endpoint) -> Promise<(Data, HTTPURLResponse?)> {
         } else {
             promise = Promise(MMockError.noMockData)
         }
-    } else if let url = endpoint.fullUrl {
+    } else if let url = endpoint.fullURL {
         promise = Alamofire.request(url,
                                     method: endpoint.method,
                                     parameters: endpoint.parameters,

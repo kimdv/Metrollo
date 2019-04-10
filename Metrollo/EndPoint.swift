@@ -69,8 +69,9 @@ public extension Endpoint {
     }
 }
 
-extension Endpoint {
-    var fullUrl: URL? {
+public extension Endpoint {
+    /// Returns the full URL path for the endpoint.
+    var fullURL: URL? {
         var url = URL(string: baseUrl)
 
         url?.appendPathComponent(path)
